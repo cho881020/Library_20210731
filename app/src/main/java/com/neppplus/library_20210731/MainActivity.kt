@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 //        인터넷에 있는 이미지를 glideTestImg 에 반영
-        Glide.with(this).load("https://dimg.donga.com/wps/NEWS/IMAGE/2019/12/31/99024137.2.jpg").into(glideTestImg)
+        Glide.with(this).load("http://dimg.donga.com/wps/NEWS/IMAGE/2019/12/31/99024137.2.jpg").into(glideTestImg)
 
         photoImg.setOnClickListener {
 
