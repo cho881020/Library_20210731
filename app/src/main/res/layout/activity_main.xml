@@ -54,4 +54,17 @@
 
     </LinearLayout>
 
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="활동 내역"/>
+
+    <ImageView
+        android:id="@+id/glideTestImg"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
+
 </LinearLayout>
