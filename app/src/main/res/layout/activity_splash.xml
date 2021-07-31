@@ -5,14 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/black"
     android:gravity="center"
     tools:context=".SplashActivity">
 
 
-    <ImageView
+    <com.airbnb.lottie.LottieAnimationView
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@mipmap/ic_launcher" />
+        app:lottie_rawRes="@raw/baby_animation"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
 
 
 </LinearLayout>
